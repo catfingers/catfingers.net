@@ -1,0 +1,249 @@
+/******************general layout blocks********************/
+.container {
+	position: relative;
+	height: 100%;
+	min-height:100%;
+}
+
+.header {
+  	position: relative;
+  	width: 700px;
+  	height: 20px;
+  	top: 0px;
+  	left: 0px;  
+  	background-image: url(pics/nav.jpg);
+  	text-align:right;
+}
+.content {
+	background: #ffffff;
+	position: relative;
+	top: 20px;
+	left: 20px;
+	width: 700px;
+  	/* height: 400px; */
+}
+.leftMargin {
+  	background: #ffffff;
+  	position: absolute;
+  	top: 20px;
+  	left: 0px;
+  	width: 20px;
+  	height: 100px;
+}
+.rightMargin {
+  	background: #ffffff;
+  	position: absolute;
+  	top: 20px;
+  	left: 800px;
+  	width: 20px;
+  	height: 100px;
+}
+
+.footer {
+	position:relative;
+	width:700px;
+	height: 20px;
+	left:0px;
+	background-image: url(pics/nav.jpg);
+  	text-align:right;
+}
+
+.indexFooter {
+	position: absolute;
+  	bottom:0;
+  	top: 640px;
+  	left: 20px;
+  	width: 700px;
+  	height: 20px;
+}
+
+/* definitions */
+/* set font defaults here */
+body{
+	height:100%;
+  	font-size:100%;		
+  	font-family: "DejaVu Sans", "URW Gothic L", "Helvetica Neue", Helvetica, Arial, "Microsoft Sans Serif", sans-serif;
+  	color: #000000;
+  	background: #ffffff;
+	}
+
+tr.odd td{
+	background-color:#eeeeee;
+	}
+	
+tr.even td{
+	background-color: #ffffff;
+	}
+	
+p.title{ 
+  	color:#666666;
+  	font-weight:bold;
+	}
+
+p.text{
+	color: #000000;
+}
+
+p.vid{
+	text-align: "center"
+	color: #000000;
+}
+
+a.index {
+	text-decoration:none;
+	color:#cccccc;
+}
+	
+a.index:hover {
+	text-decoration:none;
+	color:#ffffff;
+}
+	
+a.inline {
+	text-decoration:none;
+	color:#666666;
+}
+	
+a.inline:hover {
+	text-decoration:none;
+	color:#cccccc;
+}
+	
+/*****************text rules*********************/
+
+/* text-block in frontpage panels */
+
+.headingTextBlock{
+	position:absolute;
+	top: 4px;
+  	left: 8px;
+  	font-weight:bold;
+  	font-size: 1.4em;
+  	color: #000000;
+	}
+
+.contactTextBlock{
+	position:absolute;
+	top: 574px;
+  	left: 654px;
+  	font-weight:bold;
+  	font-size:0.8em;
+	}
+	
+.photoTextBlock{
+  	text-align: left
+  	font-weight:bold;
+  	font-size: 0.6em;
+  	color: #000000;
+	}
+	
+.navLinkTextBlock{
+	text-align: center;
+  	font-weight:bold;
+  	font-size: 1.0em;
+  	color:#000000;
+}
+
+.inactiveLink {
+	color: #666666;
+}
+
+/*****************front page*********************/
+/*panels for frontpage */
+
+.contentPanel {
+  	background: #cccccc;
+  	position: relative;
+  	top: 20px;
+  	left: 20px;
+  	width: 590px;
+  	height: 400px;
+}
+
+.frontPic {
+	position: absolute;
+	top:0px;
+	left:0px;
+
+}
+
+.navPanel0 {
+	/* background: rgba(0,0,0,0); */
+	position: absolute;
+	text-align: center;
+	font-size: 1.4em;
+	font-weight: bold;
+	width: 100px;
+	height: 60px;
+	top: 6px;
+	left: 200px;
+}
+
+.navPanel1 {
+	/* background: rgba(0,0,0,0); */
+	position: absolute;
+	text-align: center;
+	font-size: 1.4em;
+	font-weight: bold;
+	width: 100px;
+	height: 60px;
+	top: 6px;
+	left: 300px;
+}
+
+.navPanel2 {
+	/* background: rgba(0,0,0,0); */
+	position: absolute;
+	text-align: center;
+	font-size: 1.4em;
+	font-weight: bold;
+	width: 100px;
+	height: 60px;
+	top: 6px;
+	left: 400px;
+}
+
+.navPanel3 {
+	/* background: rgba(0,0,0,0); */
+	position: absolute;
+	text-align: center;
+	font-size: 1.4em;
+	font-weight: bold;
+	width: 100px;
+	height: 60px;
+	top: 6px;
+	left: 500px;
+}
+
+.navPanel4 {
+	/* background: rgba(0,0,0,0); */
+	position: absolute;
+	text-align: center;
+	font-size: 1.4em;
+	font-weight: bold;
+	width: 100px;
+	height: 60px;
+	top: 6px;
+	left: 600px;
+}
+
+.navPanel5 {
+	/* background: rgba(0,0,0,0); */
+	position: absolute;
+	text-align: center;
+	font-size: 1.4em;
+	font-weight: bold;
+	width: 100px;
+	height: 60px;
+	top: 6px;
+	left: 700px;
+}
+
+
+/* headingTextBlock{
+	padding-top:2px;
+	text-align:center;
+	font-weight:bold;
+	color:black;
+   	/* background: rgb(0, 0, 0); fallback color */
+  	/* background: rgba(0, 0, 0, 0.); } */

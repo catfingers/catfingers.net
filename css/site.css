@@ -1,0 +1,181 @@
+/* for: catfingers.net by: Ashley Scott ashs@hamsleeves.com: last revision: 11/2012 */
+
+/* css reset */
+
+html, body, ul, ol, li, fieldset, legend {
+	margin: 0;
+	padding: 0;
+	font-family: "DejaVu Sans", "URW Gothic L", "Helvetica Neue", Helvetica, Arial, "Microsoft Sans Serif", sans-serif;
+    text-align: left;
+}
+
+/* h1, h2, h3, h4, h5, h6, p { margin-top: 0; }
+fieldset, img { border: 0; }
+legend { color: #000; }
+
+form, input, textarea, select, button {
+	font-size: 1.2em;
+	line-height: 1.2;
+}
+
+button {
+	width: auto;
+	overflow: visible;
+}
+
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption, th, td {
+	text-align: left;
+	vertical-align: top;
+	font-weight: normal;
+}
+
+ul li { list-style: none; }
+
+abbr, acronym {
+	border-bottom: .1em dotted;
+	cursor: help;
+}
+
+sup { vertical-align: text-top; }
+sub { vertical-align: text-bottom; }
+
+pre, code {
+	font-family: "Courier New", monospace, serif;
+	font-size: 100%;
+	line-height: 1.2;
+}*/
+
+/* end of reset */
+
+/* tags: 'fp' indicates something for the frontpage */
+
+a {
+	text-decoration:none;
+	color:#fff;
+}	
+a:hover {
+	text-decoration:none;
+	color:#ccc;
+}
+
+.title {
+	padding: 40px 0 0 0;
+	font-weight:bold;
+  	font-size: 1.2em;
+  	color: #999; 
+}
+
+p.vid {
+	text-align: "center";
+}
+
+p.warning {
+	text-align: "center";
+	color: red;
+}
+
+/* layout */
+/* putting margins etc etc into body-level stuff */
+
+/*body {display: inline-block; }
+.fpage {
+    background: none repeat scroll 0 0 #fff;
+    color: #000000;  
+}
+.page {
+    background: none repeat scroll 0 0 #fff;
+    color: #000000;
+    padding: 10px 60px 10px 60px;
+}*/
+.content {
+	width: 800px;
+	margin: 0 auto;
+	padding: 40px;
+}
+.fpimage { 
+	background-image:url('/pics/frontpage.jpg');
+	background-repeat: no-repeat;
+	/*background-size: contain;*/
+	background-color: #474747;
+	height: 600px;
+	
+}
+/* text */
+.fptitle{
+	margin-top: 24px;
+	float: left;
+	padding: 0 10px 0 10px;
+	font-weight:bold;
+  	font-size: 48px;
+	color: #000;
+}
+.fpnavtext {
+	/* margin-top: 24px;*/
+	float: left;
+	/* display: table-cell; */
+	vertical-align: bottom;	
+	/* padding: 0 16px 0 0;*/
+	padding: 0 10px 0 10px;
+	font-weight:bold;
+  	font-size: 32px;
+  	color: #fff
+}
+.fpnav {float: right;}
+
+.fphotocaptext {
+	margin: 10px 0 20px 0;
+	text-align: left;
+	clear: both;
+	font-size: 10px;
+	font-weight: normal;
+    color: #000;
+}
+/* text styling */
+.navtext {
+	font-weight:bold;
+  	font-size: 48px;
+  	color:#999;
+}
+.caption {
+	font-weight:bold;
+  	font-size: 0.8em;
+  	color: #999; 
+}
+
+.bcplayer { display: block; margin: 0 auto; padding-left: 40px; padding-top: 460px; text-align: center;}
+.mini-contact {display: none;}
+
+@media only screen and (max-width: 1023px) {
+	.content { padding: 20px; }
+	.fptitle { clear: right; margin-top: 40px;  margin-bottom: 8px; font-size: 280%;}
+	.fpnavtext { clear: left; margin-bottom: 0; font-size: 220%;}
+	.fpnav { clear: left; float: left; padding: 0 0 0 10px;}
+	.bcplayer { padding-left: 20px;}
+	a { color:#000; }	
+	a:hover { color: #ccc; /*#A02716; */}
+
+}
+@media only screen and (max-width: 850px) {
+    body { background: #474747; }
+    .content {
+		margin: 40px 0 0 0;
+		padding: 0;
+		width: 100%;
+	}
+	.fpimage {
+		width: 100%;
+	}
+	.bcplayer { padding-left: 30px;}
+	.fphotocaptext { color: #fff; }
+	.fullsize-contact {display: none; }
+	.mini-contact {display: inline;}
+}
+@media only screen and (max-width: 600px) {
+	.content { margin-top: 0; }
+	.bcplayer { padding-left: 0px; padding-top: 360px;}
+}
