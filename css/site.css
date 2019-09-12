@@ -98,7 +98,7 @@ p.warning {
 	padding: 40px;
 }
 .fpimage { 
-	background-image:url('/pics/frontpage.jpg');
+	background-image:url('../pics/frontpage.jpg');
 	background-repeat: no-repeat;
 	/*background-size: contain;*/
 	background-color: #474747;
